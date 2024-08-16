@@ -12,5 +12,11 @@
         "content": "replace this background with a picture of an alligator",
         "timestamp": "16082024010053",
         "message_id": "guest16082024010053"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Sure, I'll replace the background with an alligator picture.",
+        "timestamp": "16082024010053",
+        "message_id": "guest16082024010053"
     }
 ]
