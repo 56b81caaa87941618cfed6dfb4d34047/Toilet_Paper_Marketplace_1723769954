@@ -10,5 +10,9 @@
     {
         "level": 1,
         "task_description": "Add a search box form to this component"
+    },
+    {
+        "level": 1,
+        "task_description": "Add a form for submitting an email comment"
     }
 ]

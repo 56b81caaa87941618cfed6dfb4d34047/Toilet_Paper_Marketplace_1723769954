@@ -27,14 +27,40 @@ Vue.component("purple_background_cta_component_1723769957", {
                     <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8 text-slate-400">Discover the ultimate destination for all your toilet paper needs. From budget-friendly bulk buys to luxurious quilted options, we've got your bottom line covered.</p></div>
                     <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span></a>
                 </div>
+                <div class="mt-8">
+                    <form @submit.prevent="submitComment" class="max-w-md mx-auto">
+                        <div class="mb-4">
+                            <label for="email" class="block text-sm font-medium text-slate-300 mb-2">Email</label>
+                            <input type="email" id="email" v-model="email" required class="w-full px-3 py-2 text-slate-900 bg-white border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="comment" class="block text-sm font-medium text-slate-300 mb-2">Comment</label>
+                            <textarea id="comment" v-model="comment" required rows="4" class="w-full px-3 py-2 text-slate-900 bg-white border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full px-4 py-2 text-white bg-purple-500 rounded-md hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">Submit Comment</button>
+                    </form>
+                </div>
                 <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Toilet_Paper_Marketplace_1723769954/main/images/60d5900714d04b929123b69b32108ca0.jpeg" alt="CTA Image" class="w-full h-auto rounded-lg mt-8" />
             </div>
         </div>
     </section>`,
         data() {
+        data() {
             return {
-                expanded: false, 
+                expanded: false,
                 tab: null,
+                email: '',
+                comment: ''
             };
+        },
+        methods: {
+            submitComment() {
+                // Handle comment submission here
+                console.log('Submitted comment:', this.email, this.comment);
+                // Reset form fields
+                this.email = '';
+                this.comment = '';
+            }
+        }
         },
     });
