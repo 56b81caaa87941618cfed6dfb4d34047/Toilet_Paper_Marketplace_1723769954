@@ -6,5 +6,9 @@
     {
         "level": 1,
         "task_description": "replace this image with a duck"
+    },
+    {
+        "level": 1,
+        "task_description": "Add a search box form to this component"
     }
 ]
