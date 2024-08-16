@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Will do, implementing a form for email comments.",
+        "message_id": "guest16082024011609",
+        "timestamp": "16082024011610",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Add a form for submitting an email comment",
         "message_id": "guest16082024011609",
