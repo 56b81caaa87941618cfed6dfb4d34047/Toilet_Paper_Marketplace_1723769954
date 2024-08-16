@@ -27,6 +27,7 @@ Vue.component("purple_background_cta_component_1723769957", {
                     <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8 text-slate-400">Discover the ultimate destination for all your toilet paper needs. From budget-friendly bulk buys to luxurious quilted options, we've got your bottom line covered.</p></div>
                     <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span></a>
                 </div>
+                <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Toilet_Paper_Marketplace_1723769954/main/images/60d5900714d04b929123b69b32108ca0.jpeg" alt="CTA Image" class="w-full h-auto rounded-lg mt-8" />
             </div>
         </div>
     </section>`,
@@ -37,4 +38,3 @@ Vue.component("purple_background_cta_component_1723769957", {
             };
         },
     });
-                    
