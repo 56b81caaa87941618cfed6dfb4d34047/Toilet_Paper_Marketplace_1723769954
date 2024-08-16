@@ -36,5 +36,11 @@
         "content": "replace this image with a duck",
         "timestamp": "16082024010843",
         "message_id": "guest16082024010843"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it! I'll replace the image with a duck.",
+        "timestamp": "16082024010843",
+        "message_id": "guest16082024010843"
     }
 ]

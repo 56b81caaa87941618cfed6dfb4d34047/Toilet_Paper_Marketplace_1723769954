@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Got it! I'll replace the image with a duck.",
+        "message_id": "guest16082024010843",
+        "timestamp": "16082024010843",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "replace this image with a duck",
         "message_id": "guest16082024010843",
