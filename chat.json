@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the new duck image to maintain the original image's dimensions or should we adjust it to better fit the design?\", \"option1\": \"Maintain original dimensions\", \"option2\": \"Adjust dimensions for better fit\"}, {\"question 2\": \"Do you have a specific duck image in mind, or would you like us to select a suitable image?\", \"option1\": \"I will provide the image\", \"option2\": \"Please select an image\"}], \"input_token_count\": 256, \"output_token_count\": 108, \"time_taken\": \"0:00:04.943062\"}",
+        "message_id": "guest16082024010843",
+        "timestamp": "16082024010852",
+        "component_file_name": "purple_header_component_1723769957",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it! I'll replace the image with a duck.",
         "message_id": "guest16082024010843",
