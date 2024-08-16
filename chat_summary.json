@@ -18,5 +18,11 @@
         "content": "Sure, I'll replace the background with an alligator picture.",
         "timestamp": "16082024010053",
         "message_id": "guest16082024010053"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the alligator picture to cover the entire background or be centered with a specific color or pattern around it?\", \"option1\": \"Cover the entire background\", \"option2\": \"Center with a specific background color or pattern\"}, {\"question 2\": \"Do you have a specific alligator image in mind, or would you like us to select a high-quality image for you?\", \"option1\": \"I will provide the image\", \"option2\": \"Please select an image for me\"}], \"input_token_count\": 260, \"output_token_count\": 116, \"time_taken\": \"0:00:02.640016\"}",
+        "timestamp": "16082024010102",
+        "message_id": "guest16082024010053"
     }
 ]
