@@ -45,7 +45,6 @@ Vue.component("purple_background_cta_component_1723769957", {
         </div>
     </section>`,
         data() {
-        data() {
             return {
                 expanded: false,
                 tab: null,
